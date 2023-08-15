@@ -1,22 +1,15 @@
 import React from "react";
 
 // components
-import Navigation from "@/components/Navigation";
-import SideBar from "./SideBar";
 import Hero from "./Hero";
-import Container from "@/components/Container";
 
+// Layout
+import Layout from "@/Layout/Layout";
 function ProfileMain() {
   return (
-    <div>
-      <Navigation />
-      <Container>
-      <div className="flex flex-col space-y-8 md:space-y-0 md:flex-row md:space-x-28 md:mx-12 mx-6 mt-28">
-        <SideBar />
-        <Hero />
-      </div>
-      </Container>
-    </div>
+    <Layout>
+      <Hero />
+    </Layout>
   );
 }
 

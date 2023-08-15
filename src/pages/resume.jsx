@@ -2,14 +2,12 @@ import React from 'react'
 
 // Layout
 import Layout from '@/Layout/Layout'
-import SocialData from '@/content/Socials/index'
-
-function Socials() {
+function resume() {
   return (
     <Layout>
-      <SocialData />
+        
     </Layout>
   )
 }
 
-export default Socials
+export default resume
