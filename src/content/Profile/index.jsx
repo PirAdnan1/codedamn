@@ -11,7 +11,7 @@ function ProfileMain() {
     <div>
       <Navigation />
       <Container>
-      <div className="flex flex-col md:flex-row md:space-x-28 md:mx-12 mx-6 mt-28">
+      <div className="flex flex-col space-y-8 md:space-y-0 md:flex-row md:space-x-28 md:mx-12 mx-6 mt-28">
         <SideBar />
         <Hero />
       </div>
