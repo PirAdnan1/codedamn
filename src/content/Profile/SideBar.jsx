@@ -25,12 +25,12 @@ function SideBar() {
         </Link>
       </div>
 
-      <div className="flex items-center justify-center space-x-2 mt-6">
+      {/* <div className="flex items-center justify-center space-x-2 mt-6">
         <SideBarIcon />
         <Link href="/socials" className={cn("font-normal", {
           "font-bold": router.pathname == "/socials"
         })}>Socials</Link>
-      </div>
+      </div> */}
 
       <div className="flex items-center justify-center space-x-2 mt-6">
         <SideBarIcon />
