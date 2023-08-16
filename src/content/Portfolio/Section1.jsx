@@ -8,11 +8,11 @@ function Section1() {
     <div>
       <h3 className="font-bold text-2xl">Playgrounds</h3>
       <div>
-        <div className="flex space-x-10">
+        <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-10">
           <Card />
           <Card />
         </div>
-        <div className="flex space-x-10">
+        <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-10">
           <Card />
           <Card />
         </div>
