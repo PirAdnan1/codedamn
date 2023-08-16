@@ -1,13 +1,29 @@
-import React from "react";
+import React,{useState} from "react";
 import Image from "next/image";
 
 // assets
 import HTML5 from "@/assets/HTML5";
 import Contributor1 from "@/assets/contributor1.png";
 import Contributor2 from "@/assets/contributor2.png";
+
 function Card() {
+
+  const [isClicked, setIsClicked] = useState(false);
+
+    const handleClick = () => {
+        setIsClicked(!isClicked);
+      };
+
+      const cardStyle = {
+        border: isClicked ? '2px solid blue' : '2px solid white',
+        backgroundColor: isClicked ? '#eef2ff' : '#fafafa',
+        padding: '10px',
+        borderRadius: '5px',
+      }
+
+
   return (
-    <div className="bg-[#fafafa] px-3 cursor-pointer py-1 rounded-lg  shrink-0">
+    <div className="bg-[#fafafa] px-3 cursor-pointer py-1 rounded-lg  shrink-0" style={cardStyle} onClick={handleClick}>
       <div className="flex items-center justify-between mt-8">
         <div className="flex items-center space-x-2">
           <HTML5 />

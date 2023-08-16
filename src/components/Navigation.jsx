@@ -4,6 +4,8 @@ import Image from "next/image";
 // components
 import Container from "./Container";
 import BellNotification from "@/content/Profile/BellNotification";
+
+
 // assets
 import Vector from "@/assets/Vector";
 import Bell from "@/assets/Bell";
@@ -23,11 +25,11 @@ function Navigation() {
               />
               <select
                 data-te-select-init
-                data-te-select-placeholder="Courses"
-                className="absolute outline-none focus:outline-none right-1 bg-[#f4f4f5] rounded-md py-1"
+                placeholder="Web"
+                className="absolute cursor-pointer outline-none focus:outline-none right-1 bg-[#f4f4f5] rounded-md py-1"
               >
                 <optgroup className="text-gray-600">
-                  <option value="1">Courses</option>
+                <option value="" disabled selected>Courses</option>
                   <option value="2">ReactJs</option>
                   <option value="3">NextJs</option>
                   <option value="4">ThreeJs</option>
