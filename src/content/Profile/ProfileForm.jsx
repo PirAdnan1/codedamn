@@ -2,7 +2,7 @@ import React from "react";
 
 function ProfileForm() {
   return (
-    <div>
+    <div className="flex flex-col">
       <div className="flex flex-col">
         <label htmlFor="name" className="font-semibold mt-4">
           Display Name

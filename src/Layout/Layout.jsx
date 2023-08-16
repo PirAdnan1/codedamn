@@ -10,9 +10,9 @@ function Layout({ children }) {
     <div className="mx-36">
       <Navigation />
       <Container>
-        <div className="flex space-x-20 mt-16">
+        <div className="flex flex-col md:flex-row space-x-20 mt-16 max-w-[628px] w-full">
           <SideBar />
-          <main>{children}</main>
+          <div className="w-[888px]">{children}</div>
         </div>
       </Container>
     </div>

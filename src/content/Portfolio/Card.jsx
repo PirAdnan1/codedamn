@@ -7,7 +7,7 @@ import Contributor1 from "@/assets/contributor1.png";
 import Contributor2 from "@/assets/contributor2.png";
 function Card() {
   return (
-    <div className="bg-[#fafafa] px-3 cursor-pointer py-1 rounded-lg mt-5 focus:border-2 focus:border-blue-700">
+    <div className="bg-[#fafafa] px-3 cursor-pointer py-1 rounded-lg mt-5 focus:border-2 border-blue-700">
       <div className="flex items-center justify-between mt-8">
         <div className="flex items-center space-x-2">
           <HTML5 />
