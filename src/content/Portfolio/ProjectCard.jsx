@@ -30,7 +30,7 @@ function ProjectCard({ imageSrc, heading, intro }) {
           <Image src={contributor1} />
           <Image src={contributor2} />
         </div>
-        <p className="text-gray-500 text-xs">3 contributors</p>
+        <p className="text-gray-500 text-xs mt-2">3 contributors</p>
       </div>
     </div>
   );
