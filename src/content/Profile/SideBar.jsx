@@ -12,7 +12,7 @@ function SideBar() {
   const router = useRouter();
 
   return (
-    <div className="flex flex-col items-start bg-[#fafafa] py-3 md:max-w-[13rem] md:max-h-[27rem] h-full w-full pl-4">
+    <div className="flex flex-col shrink-0 items-start bg-[#fafafa] py-3 md:max-w-[13rem] md:max-h-[27rem] h-full w-full pl-4">
       <div className="flex items-center justify-center space-x-2">
         <SideBarIcon />
         <Link

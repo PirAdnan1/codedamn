@@ -5,17 +5,14 @@ import Card from "./Card";
 
 function Section1() {
   return (
-    <div>
+    <div className="max-w-[636px] w-full shrink-0">
       <h3 className="font-bold text-2xl">Playgrounds</h3>
-      <div>
-        <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-10">
-          <Card />
-          <Card />
-        </div>
-        <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-10">
-          <Card />
-          <Card />
-        </div>
+      <div className="grid lg:grid-cols-2 gap-6">
+        <Card />
+        <Card />
+
+        <Card />
+        <Card />
       </div>
     </div>
   );
